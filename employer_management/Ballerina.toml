@@ -1,0 +1,19 @@
+[package]
+org = "atheeque"
+name = "employer_management"
+version = "0.1.0"
+distribution = "2201.8.6"
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org = "ballerinax"
+name = "googleapis.bigquery"
+version = "1.5.1"  # Use a specific version that supports service accounts
+
+[[dependency]]
+org = "ballerinax"
+name = "googleapis.sheets"
+version = "2.0.0"  # For potential Excel export features
+
